@@ -1,7 +1,6 @@
 # DynamicSpikeDetectorPlugin
 
-![alt text][logo]
-[logo]:https://github.com/camigord/DynamicSpikeDetectorPlugin/blob/master/plugin.jpg "Plugin"
+![logo](https://github.com/camigord/DynamicSpikeDetectorPlugin/blob/master/plugin.jpg)
 
 Spike detector plugin for the open-ephys [plugin-GUI](https://github.com/open-ephys/plugin-GUI/). This is a modification of the standard SpikeDetector plugin where instead of using a fixed amplitude threshold, we compute a dynamic threshold according to the signal's noise as described by [Quiroga et al.](http://www.ncbi.nlm.nih.gov/pubmed/15228749). The plugin remains compatible with the standard SpikeViewer plugin.
 
